@@ -1,0 +1,30 @@
+html {
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: gainsboro;
+}
+
+h1 {
+    color: brown;
+    font-family: fantasy;
+    font-size: 200%;
+}
+
+body {
+    color: brown;
+    font-size: 150%;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: ghostwhite;
+}
+
+p.one {
+    color: cadetblue;
+}
+
+p.two {
+    color: darkgreen;
+    position: relative;
+}
