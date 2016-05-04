@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <html>
-    
     <head>
         <title> StartY </title>
         <link rel="stylesheet" href="main.css" title="main">
@@ -10,13 +9,14 @@
     
     <body>
         <h1> Welcome To StartY </h1>
-        <a href="http://www.google.com" target="_parent">
+        <a href="query_page.html" target="_parent">
             <button type="button" onclick="queryButtonClicked()" id="queryButton"> Query Page </button>
         </a>
     </body>
     
     <script>
         var count = 0;
+        localStorage.setItem("Ah", 1);
         function queryButtonClicked() {
             "use strict";
             var property = document.getElementById("queryButton");

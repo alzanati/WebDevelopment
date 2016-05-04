@@ -17,21 +17,18 @@ function mult(x, y) {
     return x * y;
 }
 
-function mutiplay() {
-    
-    "use strict";
-    var x, y, z;
-    
-    x = document.getElementById("num1").value;
-    y = document.getElementById("num2").value;
-    
-    document.getElementById("text").innerHTML = "  = " + mult(x, y);
-}
-
 function getElment() {
     "use strict";
     
     var z;
     z = document.getElementById("selection").value;
-    document.getElementById("text").innerHTML = "You choose :  " + z;
+    document.getElementById("selection").style.width = "100px";
+    document.getElementById("selection").style.height = "34px";
+    document.getElementById("selection").style.overflow = "hidden";
+    document.getElementById("selection").style.background = "url(new_arrow.png) no-repeat right #ddd";
+    document.getElementById("selection").style.border = "2px solid #ccc";
+    document.getElementById("selection").style.fontSize = "20px";
+    
+    document.getElementById("text_test").innerHTML = "You choose :  " + z;
 }
+

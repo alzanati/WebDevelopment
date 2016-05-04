@@ -74,6 +74,18 @@ button {
     width: 150px;
 }
 
+select {
+    background: url(new_arrow.png) no-repeat right #ddd;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+}
+
 samp {
     display: none;
 }
